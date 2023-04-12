@@ -63,6 +63,7 @@
                             editable
                             @input="setDateTime"
                             :value="dateTime"
+                            hour-format="12"
                         />
                     </b-field>
                 </div>
@@ -132,6 +133,7 @@
                             editable
                             @input="setDateTime"
                             :value="dateTime"
+                            hour-format="12"
                         />
                     </b-field>
                 </div>
@@ -167,6 +169,7 @@
                             editable
                             @input="setDateTime"
                             :value="dateTime"
+                            hour-format="12"
                         />
                     </b-field>
                 </div>
